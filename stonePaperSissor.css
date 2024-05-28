@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    
+}
+#C1section2{
+    background-position-x: 60px;
+}
+.main{
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container{
+height: 100%;
+display: flex;
+flex-direction: row;
+}
+
+.C1section{
+    
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.img{
+
+width: 100%;
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: 120px;
+}
+#img1{
+    background-image: url(./image/rock.jpg);
+}
+#img2{
+    background-image: url(./image/paper.jpg);
+}
+#img3{
+    background-image: url(./image/sissors.jpg);
+}
+
+#score{
+    display: none;
+    
+    padding: 10px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid gray ;
+    border-radius: 5px;
+}
